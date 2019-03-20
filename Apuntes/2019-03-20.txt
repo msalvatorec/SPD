@@ -20,11 +20,34 @@
 4ta generación
 	-Aparecen los "primeros" sistemas operativos. En la tercera generación, en la PC se le cargaba un programa y se ejecutaba. Ahora, en los sistemas operativos, se encargan de manejar multiples programas (los que antes se cargaban en las computadoras).
 	-Aparecen los primeros microprocesadores. Reemplazan a los circuitos integrados. La escala de integración es lo que mas se destaca de esta generación ya que los miles de transistores que se podian colocar en un circuito integrado, ahora se colocan en un microprocesador pero muchisimo más minituarizdos.
-		-Integración LSI: large system integration
-		-Integración VLSI: very large system integration
+		-Integración LSI: large scale integration
+		-Integración VLSI: very large scale integration
+
+
+Von Neumann
+
+	CPU				     Memoria P.
+_____________________			___________________
+| |--|    |-----|   |			|		  |
+| |UC|    |     |   |			|		  |
+| |__|    | UAL |   |	   Bus		|    Programas	  |
+|         |_____|   |   <-------->	| 		  |
+|                   | 	  8 bits	|      Datos	  |
+|                   |			|		  |
+|                   |			|		  |
+|___________________|			|_________________|
 
 
 
 
+Harvard
 
+____________
+|          |         ____________
+|   CPU    |<------> | Programas|
+|          |<---|    |__________|
+|__________|	|
+		|    ____________
+		|--> |   Datos  |
+		     |__________|
 	
