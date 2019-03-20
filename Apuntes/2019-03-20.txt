@@ -1,0 +1,30 @@
+
+1ra generación
+	-EDVAC
+		-Sistema decimal
+		-Programas cableados
+
+	-ENIAC
+		-Arquitectura de Von Neumann
+		-Sistema Binario
+		-Lenguajes de programaciòn binario
+		-Dejan de clablearse los programas, aparece la memoria
+
+2da generación
+	-Transistores, ocupan menos espacio que las vàlvulas de tubo de vacìo. Se quemaban menos. Puedo meter más transitores en el mismo volumen que tenía disponible para las válvulas. Entonces tengo mayor potencia para el procesamiento de datos.
+	-Aparecen los lenguajes de programaciòn de "alto nivel". Se programa sin importar que tipo de computadora/arquitectura tenga esta computadora. Antes se debía programar en el tipo de lenguaje binario que entendiese la computadora.
+
+3ra generación
+	-Aparecen los circuitos integrados. "Pastillas" de silicio que poseen miles o millones de instrucciones. Reemplazan a los transistores.
+
+4ta generación
+	-Aparecen los "primeros" sistemas operativos. En la tercera generación, en la PC se le cargaba un programa y se ejecutaba. Ahora, en los sistemas operativos, se encargan de manejar multiples programas (los que antes se cargaban en las computadoras).
+	-Aparecen los primeros microprocesadores. Reemplazan a los circuitos integrados. La escala de integración es lo que mas se destaca de esta generación ya que los miles de transistores que se podian colocar en un circuito integrado, ahora se colocan en un microprocesador pero muchisimo más minituarizdos.
+		-Integración LSI: large system integration
+		-Integración VLSI: very large system integration
+
+
+
+
+
+	
