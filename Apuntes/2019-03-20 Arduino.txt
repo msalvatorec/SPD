@@ -1,0 +1,2 @@
+Actuadores: todos aquellos componentes electricos que van a de alguna manera a representar la informaciòn, van a reponder a una salida. Por ejemplo: un parlante que emite un sonido cuando se lo indica la placa. (Similar a un periférico de salida en una PC)
+Sensores: hacen lo inverso a los actuadores. Miden una variable del anviante, toman un dato del entorno fisico y lo transforma en una corriente electrica. (Similar a un periférico de entrada en una PC).
