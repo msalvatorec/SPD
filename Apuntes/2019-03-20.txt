@@ -50,4 +50,15 @@ ____________
 		|    ____________
 		|--> |   Datos  |
 		     |__________|
-	
+
+
+
+Microcontrolador != Microprocesador
+
+Microcontrolador: Ejecuta un programa y no hace otra cosa hasta que le demos otro programa.
+Microprocesador: Es mucho mas flexible que un microcontrolador, Resuelve muchas más operaciones y puede utilizar más de un programa a la vez
+
+
+
+
+
