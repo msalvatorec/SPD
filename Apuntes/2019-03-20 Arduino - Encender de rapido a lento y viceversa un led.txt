@@ -1,0 +1,26 @@
+void setup(){
+  pinMode(13,OUTPUT);
+}
+
+void loop(){
+  
+  int i;
+  for (i=10;i<1000 ; i=i*2)
+  {
+      digitalWrite(13,HIGH);
+      delay(i);
+      digitalWrite(13,LOW);
+      delay(i);
+  }
+
+  for (i=1000; i>10; i=i/2)
+  {
+      digitalWrite(13,HIGH);
+      delay(i);
+      digitalWrite(13,LOW);
+      delay(i);
+  }
+
+  
+
+}

@@ -23,3 +23,32 @@ void loop()
 {
     delay(10); // Delay a little bit to improve simulation performance
 }
+
+---------------------------------------------------------------------------------------------------------------------------
+
+pinMode(numeroPin,modoPin);
+por ejemplo, para configurar el pin número 13 como salida, hacemos: pinMode(13,OUTPUT)
+
+digitalWrite(numeroPin,valorPing);
+por ejemplo, para mostrar la salida por el pin 13, lo hacemos con un loop infinito, entonces dentro de void loop() escribimos: digitalWrite(13,HIGH); donde HIGH es una constante que indica que se debe enviar una alta cantidad de corriente. En contraste, LOW hace lo mismo y manda una cantidad muy pequeña de corriente.
+
+verify: compila el código
+upload: ejecuta el código
+
+Tools 	-> elegimos nuestra version de Arduino.
+Port	-> elegimos en que puerto esta conectado el arduino.
+
+delay(valorEnMilisegundos);
+
+Ejemplo de código para prender y apagar el led 13 cada un segundo.
+
+void setup(){
+	pinMode(13,OUTPUT);
+}
+
+void loop(){
+	digitalWrite(13,HIGH);
+	delay(1000);
+	digitalWrite(13,LOW);
+	delay(1000);
+}
