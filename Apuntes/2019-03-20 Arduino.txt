@@ -1,2 +1,25 @@
 Actuadores: todos aquellos componentes electricos que van a de alguna manera a representar la informaciòn, van a reponder a una salida. Por ejemplo: un parlante que emite un sonido cuando se lo indica la placa. (Similar a un periférico de salida en una PC)
 Sensores: hacen lo inverso a los actuadores. Miden una variable del anviante, toman un dato del entorno fisico y lo transforma en una corriente electrica. (Similar a un periférico de entrada en una PC).
+
+Ground: técnicamente no, pero sería como el negativo en el circuito electrico.
+Digital: Se programan actuadores o sensores digitales para que interactuen con los pines digitales
+Analog in: Igual que el digital pero para elementos analógicos. Si queremos, podemos configurarlos como digitales. Es decir, la placa de Arduino tiene 14 conectores digitales; si queremos conectar 16 led, podemos configurar 2 entradas analogicas como digitales y conectar los 2 restantes alli. (Al reves no se puede).
+Power: ground se usa siempre y el +5v para dar corriente al circuito. Se suelen usar esos en la cátedra, pero los otros se pueden usar.
+
+TX: Transmitir. Cuando se le transmite datos a la placa, se enciende este led.
+
+RX: Recepcion. Se enciende este led cuando recibe datos.
+
+
+
+Ejemplo de código ARDUINO
+
+void setup()
+{
+//aca se configuran como van los pines, si son de entrada, si son de salida, etc.
+}
+
+void loop()
+{
+    delay(10); // Delay a little bit to improve simulation performance
+}
