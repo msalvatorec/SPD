@@ -1,0 +1,22 @@
+Complemento a 1
+
+00001000 = (8)base 10
+
+11110111
+|
+|-------------> Bit de signo. Si es 0; el número es positivo. Si es 1, es negativo.
+
+Entonces 11110111
+	 1 1110111
+	 |   |----> 111011 lo paso a numero decimal como siempre;
+	 |	    64+32+16+0+8+4+2= 119
+	 |--------> bit de signo, indica que el numero es negativo
+
+Finalmente la cuenta es: Valor del bit de signo (si es negativo -128; sino 0) + el numero restante en base decimal + (0 si es positivo o +1 si es negativo el bit de signo).
+
+En este caso: -128+119+1 = -8
+
+1111011 = (-8)base 10
+
+11001100 = (-51)base 10
+

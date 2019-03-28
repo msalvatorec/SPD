@@ -1,0 +1,26 @@
+Complemento a 2
+
+Lo primero que debemos saber para calcular complemento a 2; es saber el complemento a 1.
+
+00001000
+|   |-------> 1000 = (8)base 10
+|-----------> bit de signo; el número es positivo
+
+00001000
+11110111 (C a 1)
+
+ 11110111
++       1
+___________
+ 11111000 (C a 2)
+
+Entonces el complemento a 2 es: 11111000
+
+
+Si tenemos un numero binario en complemento a 2; calculando los pesos directamente (teniendo en cuenta el bit de signo), obtenemos el valor en decimal.
+En complemento a 1 hay que hacer eso mismo y sumarle 1.
+
+
+Si tenemos el complemento a 2 de un numero y queremos obtener nuevamente su complemento a 2; es vàlido hacer el paso inverso.
+
+

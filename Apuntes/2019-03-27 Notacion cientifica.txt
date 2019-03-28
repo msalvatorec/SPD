@@ -1,0 +1,22 @@
+
+|___||_____||___________|
+  |     |         |---------> Mantisa (23bits)
+  |     |-------------------> Exponente desplazado (8bits)
+  |-------------------------> Bit de signo (1bit)
+
+=> 23bits+ 8bits+ 1bit = 32bits
+
+Ejemplo: Pasar a la notación científica el siguiente número: 00001010,000000; despues de la "coma" (,) no hay nada, es despreciable. => 00001010,000000 = 00001010
+
+1) Pasar la coma hacia la izquierda hasta donde esta el primer uno (1)
+ Debe quedar a la edrecha del primer uno.
+	00001,010 => corrimos la coma 3 posiciones (exponente sin desplazar)
+
+2) Identificamos el bit de signo: es 0
+
+3) Calculamos el exponente desplazado = exponente sin desplazar + 127 (si, el desplazamiento es sumarle 127).
+
+	=> 3 + 127 = 130 = 100000010  
+
+4) Calcular la mantisa (recordar que son 23 bits):
+	01000000000000000000000
