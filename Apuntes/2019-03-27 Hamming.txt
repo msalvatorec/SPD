@@ -1,0 +1,46 @@
+Hamming
+
+Es un método de armar un mensaje con bits de paridad y si hay un error, detectar en que bit se encuentra.
+
+Los bit de paridad van en las posiciones que sean potencia de 2. El numero más a la izquierda es el dato1, el mas a la derecha, el dato n.
+
+11100
+|||||--> dato 5
+||||---> dato 4
+|||----> dato 3
+||-----> dato 2
+|------> dato 1
+
+
+        1       1   1   0        0
+__  __  __  __  __  __  __  __   __
+1   2   3   4   5   6   7   8    9
+001 010 011 100 101 110 111 1000 1001
+B1  B2  D1  B3  D2  D3  D4  B4   D5
+
+B=Bit de paridad
+D=dato
+
+Ahora resta armar los bits de paridad. Por cada bit de paridad decimos que vamos a armar un grupo de paridad.
+
+P1: todos los datos que tengan 1 en la primer posicion
+P1: D1, D2, D4, D5
+Segun los valores que tiene cada dato, decimos
+P1: 1 1 0 0
+
+P2: todos los datos que tengan 1 en la segunda posicion
+P2: D3, D4, D5
+P2: 1 1 0
+
+P3: todos los datos que tengan 1 en la tercera posicion
+P3: D2, D3, D4
+P3: 1 1 0
+
+P4: todos los datos que tengan 1 en la cuarta posicion
+P4: D5
+P4: 0
+
+Ahora, suponiendo que decimos que la paridad es que par = 0
+
+El mensaje queda: B1 B2 D1 B3 D2 D3 D4 B4 D5
+		  0  0  1  0  1  1  0  0  0  
