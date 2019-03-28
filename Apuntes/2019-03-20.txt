@@ -1,5 +1,7 @@
+17/04 Primer parcial
 
-1ra generaci髇
+
+1ra generaci贸n
 	-EDVAC
 		-Sistema decimal
 		-Programas cableados
@@ -7,21 +9,21 @@
 	-ENIAC
 		-Arquitectura de Von Neumann
 		-Sistema Binario
-		-Lenguajes de programaci騨 binario
+		-Lenguajes de programaci貌n binario
 		-Dejan de clablearse los programas, aparece la memoria
 
-2da generaci髇
-	-Transistores, ocupan menos espacio que las v鄉vulas de tubo de vac靜. Se quemaban menos. Puedo meter m醩 transitores en el mismo volumen que ten韆 disponible para las v醠vulas. Entonces tengo mayor potencia para el procesamiento de datos.
-	-Aparecen los lenguajes de programaci騨 de "alto nivel". Se programa sin importar que tipo de computadora/arquitectura tenga esta computadora. Antes se deb韆 programar en el tipo de lenguaje binario que entendiese la computadora.
+2da generaci贸n
+	-Transistores, ocupan menos espacio que las v脿lvulas de tubo de vac矛o. Se quemaban menos. Puedo meter m谩s transitores en el mismo volumen que ten铆a disponible para las v谩lvulas. Entonces tengo mayor potencia para el procesamiento de datos.
+	-Aparecen los lenguajes de programaci貌n de "alto nivel". Se programa sin importar que tipo de computadora/arquitectura tenga esta computadora. Antes se deb铆a programar en el tipo de lenguaje binario que entendiese la computadora.
 
-3ra generaci髇
+3ra generaci贸n
 	-Aparecen los circuitos integrados. "Pastillas" de silicio que poseen miles o millones de instrucciones. Reemplazan a los transistores.
 
-4ta generaci髇
-	-Aparecen los "primeros" sistemas operativos. En la tercera generaci髇, en la PC se le cargaba un programa y se ejecutaba. Ahora, en los sistemas operativos, se encargan de manejar multiples programas (los que antes se cargaban en las computadoras).
-	-Aparecen los primeros microprocesadores. Reemplazan a los circuitos integrados. La escala de integraci髇 es lo que mas se destaca de esta generaci髇 ya que los miles de transistores que se podian colocar en un circuito integrado, ahora se colocan en un microprocesador pero muchisimo m醩 minituarizdos.
-		-Integraci髇 LSI: large scale integration
-		-Integraci髇 VLSI: very large scale integration
+4ta generaci贸n
+	-Aparecen los "primeros" sistemas operativos. En la tercera generaci贸n, en la PC se le cargaba un programa y se ejecutaba. Ahora, en los sistemas operativos, se encargan de manejar multiples programas (los que antes se cargaban en las computadoras).
+	-Aparecen los primeros microprocesadores. Reemplazan a los circuitos integrados. La escala de integraci贸n es lo que mas se destaca de esta generaci贸n ya que los miles de transistores que se podian colocar en un circuito integrado, ahora se colocan en un microprocesador pero muchisimo m谩s minituarizdos.
+		-Integraci贸n LSI: large scale integration
+		-Integraci贸n VLSI: very large scale integration
 
 
 Von Neumann
@@ -56,7 +58,7 @@ ____________
 Microcontrolador != Microprocesador
 
 Microcontrolador: Ejecuta un programa y no hace otra cosa hasta que le demos otro programa.
-Microprocesador: Es mucho mas flexible que un microcontrolador, Resuelve muchas m醩 operaciones y puede utilizar m醩 de un programa a la vez
+Microprocesador: Es mucho mas flexible que un microcontrolador, Resuelve muchas m谩s operaciones y puede utilizar m谩s de un programa a la vez
 
 
 
