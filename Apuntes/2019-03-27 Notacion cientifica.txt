@@ -18,5 +18,7 @@ Ejemplo: Pasar a la notación científica el siguiente número: 00001010,000000; de
 
 	=> 3 + 127 = 130 = 100000010  
 
-4) Calcular la mantisa (recordar que son 23 bits):
+4) Calcular la mantisa (recordar que son 23 bits). Comenzamos a completar la mantisa con los elementos que estan despues de la coma (,) y luego completo con ceros (0).
+En este caso como habiamos obtenido el numero 00001,010; la mantisa es:
 	01000000000000000000000
+
