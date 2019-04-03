@@ -91,3 +91,36 @@ Entonces determinamos que en la posición 0011 (d1), se encuentra el error en el
 
 Si el error nos da en un digito que es superior a la cantidad de digitos que poseemos, por ejemplo, en este caso: 1010 (posición 10 y tenemos 9); determinamos que el error se encuentra en más de un bit y no se puede determinar dónde esta el error.
 
+
+
+==================================================
+Ejemplo de pasaje a punto flotante
+
+-13255|base10
+
+13255|base10 = 11001111000111|base2
+
+ponemos la "," ala derecha del primer uno
+
+1,1001111000111 corrimos la "," 13 lugares. => exponente =13
+calculamos el exponente desplazado = exponente +127 = 13 +127 = 140.
+
+|_|	|________|	|_______________________|
+ |		|					|----------------->	Mantisa (23 bits)
+ |		|-------------------------------------> Exponente desplazado (8 bits)
+ |--------------------------------------------> Bit de signo (1 bit)
+
+
+Entonces
+									|-------------> Rellenos de 0 para completar lo que 
+							  ___________ 			falta de la mantisa
+					          |         |
+ 1	 10001100	 10011110001110000000000
+|_|	|________|	|_______________________|
+
+Bit de signo 1 es negativo
+			 0 es positivo
+
+Exponente desplazado= (cuantos lugares se translado la coma + 127) en binario
+
+Mantisa: el número en binario que esta despues de la coma (luego de haberla desplazado). Relleno con 0 hasta completar 23bits de ser necesario.
