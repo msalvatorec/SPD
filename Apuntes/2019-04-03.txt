@@ -1,0 +1,46 @@
+
+Formula para saber cuantos Bits de paridad preciso en codificación Hamming.
+
+2**p >= n+p+1
+n es la cantidad de bits de datos
+Teniendo el dato 10010, n=5.
+
+pruebo para p=1
+2**1>=5+1+1
+2>=7
+no se cumple
+
+p=2
+2**2>=5+2+1
+4>=8
+no se cumple
+
+p=3
+2**3>=5+3+1
+8>=9
+no se cumple
+
+p=4
+2**4>=5+4+1
+16>=10
+Si se cumple; necesito entonces 4 bits de paridad; p=4.
+
+1	0	0	1	0
+d1	d2	d3	d4	d5
+
+
+|___|	|___|	|___|	|___|	|___|	|___|	|___|	|___|	|___|
+ p1      p2   	 d1    	 p3   	 d2    	 d3    	 d4    	 p4    	 d5
+ 0001	0010	0011	0100	0101	0110	0111	1000	1001
+
+ p1= d1 d2 d3 d4 // 1010 
+ p2= d1 d3 d4 // 101
+ p3= d2 d3 d4 // 001
+ p4= d5 // 0
+
+Suponiendo PARIDAD PAR: 0 si es par, 1 si es impar la cantidad de 1.
+
+   0	  0		  1		  1		  0		  0		  1		  0		  0
+ |___|	|___|	|___|	|___|	|___|	|___|	|___|	|___|	|___|
+ p1      p2   	 d1    	 p3   	 d2    	 d3    	 d4    	 p4    	 d5
+ 0001	0010	0011	0100	0101	0110	0111	1000	1001
