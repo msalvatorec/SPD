@@ -89,3 +89,5 @@ leyendo los codigos al reves (desde p4 hacia p1) se lee 0011.
 
 Entonces determinamos que en la posición 0011 (d1), se encuentra el error en el dato ingresado. Modificando el valor, el código estaría bien ćodificado. En este caso d1=0; por lo que al corregirlo decimos que d1=1.
 
+Si el error nos da en un digito que es superior a la cantidad de digitos que poseemos, por ejemplo, en este caso: 1010 (posición 10 y tenemos 9); determinamos que el error se encuentra en más de un bit y no se puede determinar dónde esta el error.
+
