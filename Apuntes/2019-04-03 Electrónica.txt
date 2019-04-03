@@ -1,0 +1,74 @@
+ 	__________
+ 	 |        |
++ ___|___     |
+    ___   	__|__
+-    |   	|   |
+	 |      |___| 
+ 	 |        |
+ 	 |        |
+ 	 |________|
+
+
+Volt: Es la medida que vamos a utilizar para medir la cantidad de electrones que tienen los elementos en un circuito. También se puede decir que es la diferencia de energía que hay entre el borne positivo del circuito y el borne negativo.
+
+Volt -> Tensión, es la energía con la que salen los elementos de un circuito eléctrico.
+
+Ampere -> Corriente: es la cantidad de electrones o cargas que pasan por un conductor en una cantidad de tiempo. Esta se define como Coulomb por segundo.
+1 C = 6,241509* 10**18 electrones
+Entonces en 1 C/s pasan 6.241509* 10**18 electrones por segundo.
+
+Resistencia: Se mide en una unidad denominada Ohm. Es la propiedad que posee cualquier material de oponerse al paso de la corriente eléctrica.
+
+Aislante: Elementos que tienen mucha resistencia a la corriente eléctrica.
+
+Conductor ideal: No tiene resistencia al paso de la corriente eléctrica.
+
+Los conductores se llevan un poco de la energia que tienen los electrones. Si bien por ejemplo los cables de cobre son buenos conductores de la electricidad, tienen una minima resistencia al paso de la corriente, es decir, que consumen energía en el circuito.
+
+5v
+2a
+ 	__________
+ 	 |        |
++ ___|___     |
+    ___   	  |
+-    |   	  | 
+ 	 |        |
+ 	 |        |
+ 	 |________|
+
+Si no hay resistencia por parte del cable, en este circuito ingresan 5V, 2A y al final de circuito llegan 0V, 2A. Esto quiere decir que el cable si bien no ofrece ninguna resistencia al paso de la corriente, se consume la anergía eléctrica.
+
+
+
+=================================================================================================
+Ley de ohm
+
+Es una ley física que relaciona a la tension, a la corriente y la resistencia.
+
+      /\
+     /  \
+    /  V \
+   /______\
+  /    |   \
+ /  I  | R  \
+/______|_____\
+
+I = V/R
+Regla memotecnica: es la moto mal escrita YBR; Y = B/R; escrito bien: I = V/R
+
+
+ 	__________
+ 	 |        |
++ ___|___     |
+    ___   	__|__
+-    |   	|   |	Si en este circuito la entrada es de 5v y la resistencia des de 100 ohm
+	 |      |___| 
+ 	 |        |
+ 	 |        |
+ 	 |________|
+
+I = V/R
+I = 5v/100 ohm
+I = 0.05a
+
+Moraleja: Teniendo 2 de los 3 valores, podemos calcular el valor restante.
