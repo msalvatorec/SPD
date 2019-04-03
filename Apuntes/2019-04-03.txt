@@ -44,3 +44,48 @@ Suponiendo PARIDAD PAR: 0 si es par, 1 si es impar la cantidad de 1.
  |___|	|___|	|___|	|___|	|___|	|___|	|___|	|___|	|___|
  p1      p2   	 d1    	 p3   	 d2    	 d3    	 d4    	 p4    	 d5
  0001	0010	0011	0100	0101	0110	0111	1000	1001
+
+
+=======================================================================
+ Decodificar Hamming
+
+ 0 0 0 1 0 0 1 0 0
+
+ 9 elementos; indicamos los bits de paridad
+
+ p1=0
+ p2=0
+ p3=1
+ p4=0
+
+ d1=0
+ d2=0
+ d3=0
+ d4=1
+ d5=1
+
+ p1 -> 0001 -> d1 d2 d4 d5 	
+ p2 -> 0010 -> d1 d3 d4 	
+ p3 -> 0100 -> d2 d3 d4		
+ p4 -> 1000 -> d5			
+
+ Suponiendo que la paridad es par, es decir, cantidad 1 pares =0; cantidad de 1 impares = 1
+
+Si algo esta bien, ponemos 0; si algo esta mal, ponemos 1
+
+ p1=	0	0	1	0		p1=0 y deberia valer 1, esta mal => codigo 1
+ 		d1	d2	d4	d5
+
+ p2=	0	0	1			p2=0 y deberia valer 1, esta mal => codigo 1
+ 		d1	d3	d4
+
+ p3=	0	0	1			p3=1 y debe valer 1, esta bien => codigo 0
+ 		d2	d3	d4
+
+ p4= 	0					p4=0 y debe valer 0, esta bien => codigo 0
+ 		d5
+
+leyendo los codigos al reves (desde p4 hacia p1) se lee 0011.
+
+Entonces determinamos que en la posición 0011 (d1), se encuentra el error en el dato ingresado. Modificando el valor, el código estaría bien ćodificado. En este caso d1=0; por lo que al corregirlo decimos que d1=1.
+
