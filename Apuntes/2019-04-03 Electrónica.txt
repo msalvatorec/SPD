@@ -72,3 +72,55 @@ I = 5v/100 ohm
 I = 0.05a
 
 Moraleja: Teniendo 2 de los 3 valores, podemos calcular el valor restante.
+
+
+============================================================================================
+
+Diodo
+
+	|\
+____| \|________
+	| /|
+	|/
+
+Permite el paso de la corriente en un solo sentido.
+
+
+
+Diodo LED. Es igual al diodo pero se dibuja con dos flechitas.
+		◥ ◥
+	|\ / /
+	| \ 
+____|  \|________
+	|  /|
+	| /
+	|/
+
+Anodo: Es el mas grande en el LED. Es negativo.
+Catodo: Es el mas chico en el LED. Es positivo.
+
+
+
+		0 ohm
+
+		 |\
+	 ____| \|________
+	 |   | /|		 |
+	 |	 |/			 |
+	 |				 /
+	 |				 \ 1000 ohm
+	 |				 /
++ ___|___     		 |
+    ___   			 |
+-    |_______________|
+
+9v
+
+=> I = V/R
+   I = 9v/(0 ohm + 1000 ohm)
+   I = 0.009a
+
+Caida de tension: Es la cantidad de tension que se lleva una resistencia o elemento en un circuito eléctrico.
+
+
+	
