@@ -1,0 +1,119 @@
+Ley de Kirchhoff
+Primera ley: Ley de nodos
+	
+
+
+		 ___/\/\/\___ i1
+		|			 |
+ _______|			 |_______
+|		|			 |	 	|					V(r1)=I1 x r1
+|		|___/\/\/\___|i2   	|					V(r2)=i2 x r2    i1=i2=I
+|							|I=i1+i2
+|							|
+|		 |					|
+|________| |________________|
+		 | |
+		 |
+
+V=v1+v2; V-(v1+v2)=0
+ya que V=IxR
+IxR = i1xr1 + i2xr2
+IxR - i1xr1 - i2xr2 = 0
+IxR - Ixr1 - Ixr2 = 0
+I(R-r1-r2))=0
+R-r1-r2=içIx0
+R-r1-r2=0
+
+
+
+En este circuito, i1 e i2 son corrientes que saldrìan del circuito, por tanto, en el momento de representarlos a modo de calculo vamos a asignarles valores NEGATIVOS.
+
+Formula sobre esta ley (se representaria con una sumatoria)
+i1 + i2 + ... + in = 0
+En este caso:
+I - i1 - i2 = 0
+
+
+Segunda ley: ley de malla
+Se llama malla a cualquier parte de un circuito que pueda comenzarla y terminarla en un mismo punto siguiendo un camino.
+
+
+		 ___/\/\/\___   
+		|			 |
+ _______|			 |_______
+|		|			 |	 	|					
+|		|___/\/\/\___|     	|					
+|							|
+|							|
+|		 |					|
+|________| |________________|
+		 | |
+		 |
+
+Tiene 2 mallas:
+
+1) 
+
+		 ___/\/\/\___   
+		|			 |
+ _______|			 |_______
+|		 				 	|					
+|		 			     	|					
+|							|
+|							|
+|		 |					|
+|________| |________________|
+		 | |
+		 |
+
+2)
+		
+		
+ _______ 			  ______
+|		|			 |	 	|					
+|		|___/\/\/\___|     	|					
+|							|
+|							|
+|		 |					|
+|________| |________________|
+		 | |
+		 |
+
+
+En un circuito en serie
+R=r1+r2
+
+Formula de esta ley
+v1+v2+...+vn=0
+
+En este caso, v1 y v2 representarían una caída de tensión, por eso le vamos a asignar valores negativos.
+V-v1-v2=0
+
+
+
+==============================================
+
+					 r2 	i(r1)
+		 		___/\/\/\____   
+	  r1	I  |	    	 |
+ ___/\/\/\_____|			 |_______
+|			   |	 r3	 	 |	 	|			V=10v		
+|			   |___/\/\/\____|     	|					
+|							i(r2)	|			r1=5ohm
+|									|			r2=10ohm
+|		 |							|			r3=10ohm
+|________| |________________________|
+		 | |
+		 |
+
+Hallar i(r3)
+
+i(r3)=v(r3)/r3
+i(r3)=v(r3)*10ohm
+
+r equivalente
+
+I=V/(R equivalente) = 10v / (r1+(r2+r3)) = 10v/(r1+(1/(1/r1+1/r1)))
+
+
+
