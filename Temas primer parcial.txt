@@ -1,0 +1,25 @@
+Temas para el primer examen:
+
+1) Historia de la computaciòn, generaciones.
+2) Arquitectura:
+		Von Newman
+		Harvard
+		Cisc
+		Risk
+3) Binarios:
+		Negativos
+		Bit de signo
+		Complemento a 1, 2.
+4) Binario de punto flotante
+5) Bit de paridad, Codificación Hamming
+6) Electronica:
+		Ley de ohm
+		Leyes de Kirchhoff
+		Resistencias
+		Potencias
+7) Arduino
+	Como cablear el arduino
+	Codigo
+
+
+El examen es todo escrito, hoja de papel. Sin simulador, sin PC.
