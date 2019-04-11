@@ -1,0 +1,8 @@
+Pulsadores en Arduino
+
+1a y 2a estan interconectadas
+idem 1b y 2b
+
+para que funcione un pulsador coenctado por codigo; tengo que poner una resistencia conectada a tierra que coencte con el pulsador que es la patita que conecta al input.
+
+
