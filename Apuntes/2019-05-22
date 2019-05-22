@@ -1,3 +1,42 @@
 Expresión canónica: Tiene en todos los términos todas las variables del dominio.
 
+Formas canónicas conocidas:
+	Suma de productos
+	Productos de sumas
 
+Suma de productos: Armo la tabla de verdad y analizo los casos en donde el valor obtenido es 1. Por cada renglon, tengo un termino de la suma. Cada termino de la suma multiplica a todas las variables, en donde el valor A serà A si A=1 en la tabla de verdad o !A si A=0.
+
+Ejemplo:
+
+AB+A!CD
+
+A B C D Z 
+0 0 0 0 0
+0 0 0 1 0
+0 0 1 0 0
+0 0 1 1 0
+0 1 0 0 0
+0 1 0 1 0
+0 1 1 0 0
+0 1 1 1 0
+1 0 0 0 0
+1 0 0 1 0
+1 0 1 0 0
+1 0 1 1 1
+1 1 0 0 1
+1 1 0 1 1
+1 1 1 0 1
+1 1 1 1 1           
+
+Expresion canónica con suma de productos:
+A!BCD + AB!C!D + AB!CD + ABC!D + ABCD
+
+Mapa de Karnaught: Es una matriz.
+
+         00 01 11 10
+ \CD    _____________
+AB\ 00  |0 |0 |0 |0 |
+    01  |0 |0 |0 |0 |
+    11  |1 |0 |1 |1 |
+    10  |0 |0 |1 |0 |
+        -------------
