@@ -43,4 +43,17 @@ AB\ 00  |0 |0 |0 |0 |
 Ahora encerramos los 1s en grupos según algunas reglas:
 	- La cantidad de grupos de 1 deben ser potencias de 2, es decir; un 1, dos 1s, cuatro 1s, ocho 1s, etc.
 	- Los 1s que agarramos deben ser adyacentes. Llamamos adyacencia en esta matriz cuando dos celdas de la matriz estan una arriba/abajo de la otra o uno a la izquierda/derecha de la otra. No vale en diagonal.
-	-
+	- La adyacencia permite "dar la vuelta" en la matriz (la ultima fila es adyacente con la primera, la ultima columna es adyacente con la primera).
+	- Los grupos deben ser lo más grandes posibles.
+	- Los 1s deben estar al menos en un grupo. Puede estar en más de uno.
+
+Los grupos en el ejemplo dado son:
+	La tercer fila completa (4 elementos)
+	Los ultimos 2 elementos de la 3ra columna (2 elementos).
+
+Ahora hay que reescribir la preposición de forma simplificada con los grupos obtenidos. Vamos a tener un termino por cada grupo obtenido en karnaugh.
+	* En el grupo de la tercer fila, A y B mantienen su valor fijo, mientras que C y D toman todos los valores posibles, incluso en sus combinaciones. Entonces solamente tomamos como valores de este grupo a: AB
+	* El segundo grupo esta en los últimos 2 elementos de la columna 3. A=1 siempre. B toma los 2 valores. C=1 y D=1 siempre. Entonces solamente tomo a los elementos que mantienen su valor: ACD.
+
+Finalmente, sumamos los 2 terminos obtenidos: AB+ACD.
+Entonces AB+ACD es la simplificacion de A!BCD +AB!C!D + AB!CD + ABC!D + ABCD
