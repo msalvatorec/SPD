@@ -37,6 +37,10 @@ Mapa de Karnaught: Es una matriz.
  \CD    _____________
 AB\ 00  |0 |0 |0 |0 |
     01  |0 |0 |0 |0 |
-    11  |1 |0 |1 |1 |
+    11  |1 |1 |1 |1 |
     10  |0 |0 |1 |0 |
         -------------
+Ahora encerramos los 1s en grupos según algunas reglas:
+	- La cantidad de grupos de 1 deben ser potencias de 2, es decir; un 1, dos 1s, cuatro 1s, ocho 1s, etc.
+	- Los 1s que agarramos deben ser adyacentes. Llamamos adyacencia en esta matriz cuando dos celdas de la matriz estan una arriba/abajo de la otra o uno a la izquierda/derecha de la otra. No vale en diagonal.
+	-
