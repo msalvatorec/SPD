@@ -1,0 +1,35 @@
+!A!B + A!B + !C!D + C!D
+
+A B C D !A!B A!B !C!D C!D Z
+0 0 0 0  1    0    1   0  1
+0 0 0 1  1    0    0   0  1
+0 0 1 0  1    0    0   1  1
+0 0 1 1  1    0    0   0  1
+0 1 0 0  0    0    1   0  1
+0 1 0 1  0    0    0   0  0
+0 1 1 0  0    0    0   1  1
+0 1 1 1  0    0    0   0  0
+1 0 0 0  0    1    1   0  1
+1 0 0 1  0    1    0   0  1
+1 0 1 0  0    1    0   1  1
+1 0 1 1  0    1    0   0  1 
+1 1 0 0  0    0    1   0  1
+1 1 0 1  0    0    0   0  0
+1 1 1 0  0    0    0   1  1
+1 1 1 1  0    0    0   0  0
+
+    00 01 11 10
+00  1  1  1  1
+01  1  0  0  1
+11  1  0  0  1
+10  1  1  1  1
+
+Grupo 1: toda la primer fila + toda la ultima fila (8 elementos)
+Grupo 2: primera y ultima columna (8 elementos)
+
+Grupo 1: B es el unico que mantiene su valor; B=0. Primer grupo = !B
+Grupo 2: D es el unico que mantiene su valor; D=0  Segundo grupo = !D
+
+Forma simplificada: !B+!D
+
+
