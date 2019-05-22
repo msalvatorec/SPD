@@ -18,6 +18,8 @@ A B C D !A!B A!B !C!D C!D Z
 1 1 1 0  0    0    0   1  1
 1 1 1 1  0    0    0   0  0
 
+  \ CD
+AB \
     00 01 11 10
 00  1  1  1  1
 01  1  0  0  1
@@ -31,5 +33,6 @@ Grupo 1: B es el unico que mantiene su valor; B=0. Primer grupo = !B
 Grupo 2: D es el unico que mantiene su valor; D=0  Segundo grupo = !D
 
 Forma simplificada: !B+!D
+
 
 
