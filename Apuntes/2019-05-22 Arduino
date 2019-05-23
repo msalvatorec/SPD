@@ -37,7 +37,7 @@ Como es digital; a cada porcion de t (256 partes) le puede asignar el valor de 0
 Asi como existe DigitalWrite, también existe AnalogWrite. 3, 5, 6, 9, 10 y 11 son los únicos pines de Arduino1 que permiten valores analógicos. Se identifican con niuflo (el cosito de la ñ). Entonces la técnica del PWM solo se puede usar con los pines que soportan valores analógicos.
 
 
-Código en Arduino para ir haciendo los intervalos de tiempo del LED cada vez más grandes con valor 1 (técnica PWD).
+Código en Arduino para ir haciendo los intervalos de tiempo del LED cada vez más grandes con valor 1 (técnica PWD). Entonces el LED inicia casi apagado y va aumentando su intensidad hasta llegar al valor 255; luego se apaga y comienza el mismo proceso infinitamente.
 
 void setup(){
 	pinMode(10, OUTPUT);
