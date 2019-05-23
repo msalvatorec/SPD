@@ -1,0 +1,41 @@
+ARDUINO
+
+DigitalWrite: Funcion que permite escribir un 1 o un 0 para una salida.
+
+
+pin10
+_______/\/\/\__|\________
+               |/        |
+                         |
+                         |
+_________________________|
+grd
+
+
+PWM: Su sigla significa "Pulse Wave modulation". Es una técnica que nos permite sacar valores analogicos mediante pulsos digitales.
+
+
+
+5v
+     |
+     |
+     |
+2,5v |-------
+     |      |
+     |      |
+     |      |
+     |______|_______
+            |      t
+          1/2t
+Siendo t el tiempo que dura un pulso; si midiese el valor en 1/2t voy a ver la mitad de la corriente, en este caso la corriente que pasa por el puilso que dura un timepo t es de 5v; entonces en 1/2t voy a ver 2,5v (justamente la mitad).
+
+Arduino puede dividir a t en 256 partes. Entonces podemos escribir valores entre 0 y 255 inclusive.
+
+Como es digital; a cada porcion de t (256 partes) le puede asignar el valor de 0 o de 5.
+
+Asi como existe DigitalWrite, también existe AnalogWrite.
+
+
+
+
+
