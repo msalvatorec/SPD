@@ -28,12 +28,26 @@ PWM: Su sigla significa "Pulse Wave modulation". Es una técnica que nos permite
             |      t
           1/2t
 Siendo t el tiempo que dura un pulso; si midiese el valor en 1/2t voy a ver la mitad de la corriente, en este caso la corriente que pasa por el puilso que dura un timepo t es de 5v; entonces en 1/2t voy a ver 2,5v (justamente la mitad).
+En arduino t=2,5ms. El tiempo de cada pulso en Arduino es 2,5ms.
 
 Arduino puede dividir a t en 256 partes. Entonces podemos escribir valores entre 0 y 255 inclusive.
 
 Como es digital; a cada porcion de t (256 partes) le puede asignar el valor de 0 o de 5.
 
-Asi como existe DigitalWrite, también existe AnalogWrite.
+Asi como existe DigitalWrite, también existe AnalogWrite. 3, 5, 6, 9, 10 y 11 son los únicos pines de Arduino1 que permiten valores analógicos. Se identifican con niuflo (el cosito de la ñ). Entonces la técnica del PWM solo se puede usar con los pines que soportan valores analógicos.
+
+
+Código en Arduino para ir haciendo los intervalos de tiempo del LED cada vez más grandes con valor 1 (técnica PWD).
+
+void setup(){
+	pinMode(10, OUTPUT);
+
+int i=0;
+void loop(){
+	analogWrite(10, i);
+	delay(100);
+	i++;
+	if(i==255) i=0;
 
 
 
