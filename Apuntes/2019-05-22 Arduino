@@ -51,6 +51,11 @@ void loop(){
 	if(i==255) i=0;
 }
 
+analogRead es una funcion para leer valores analógicos.
+
+modo de uso:
+int valorMicrofono=analogRead(?);
+
 
 
 
