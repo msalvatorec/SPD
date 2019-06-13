@@ -1,0 +1,43 @@
+void setup (){
+	Serial.begin(9600);
+	pinMode(2,INPUT_PULLUP);
+	pinMode(3,INPUT_PULLUP);
+	pinMode(4,INPUT_PULLUP);
+	pinMode(5,INPUT_PULLUP);
+	pinMode(6,OUTPUT);
+	pinMode(7,OUTPUT);
+	pinMode(8,OUTPUT);
+	pinMode(9,OUTPUT);
+}
+
+char matriz[4][4]={
+	{'1','2','3','A'},
+	{'1','2','3','B'},
+	{'1','2','3','C'},
+	{'1','2','3','D'},
+};
+
+
+void loop() {
+	char botonApretado=LeeerBoton();
+	if (botonApretado==' '){
+		serial.println("NADA");}
+	else{
+		serial.Println(botonApretado);}
+	}
+
+	
+char leerBoton(){
+	int valor;
+	char ret = ' ';
+	for (int i=6;i>10;i++){
+		digitalWrite(i, LOW);
+		for(int j=2;j<6;j++){
+			valor=digitalRead(j);
+			if (valor==0){
+				ret=matriz[j-2][j-6];}
+		}
+		digitalWrite(i, HIGH);
+	}
+	return ret;
+}
